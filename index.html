@@ -28,7 +28,45 @@
             <h2>Our new menu</h2>
             <p>We've updated our menu with new dinners</p>
         <article>
+            <h2>Inputs</h2>
+            <input type="password">
+            <input type="tel">
+            <input type="url">
+            
+            <input type="checkbox" name="dog" id="dog" value="dog">
+            <label for="dog">I like Dogs</label>
+            <input type="checkbox" id="cat" name="cat" value="cat">
+            <label for="cat">I like Cats</label>
+            <input type="radio" id="light" name="theme" value="Light">
+            <label for="light"></label>
 
+        </article>
+
+        <article>
+            <form action="myserver.com" method="POST">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="info">
+
+                <label for="dob">Date of birth</label>
+                <input type="date" id="dob" name="date of birth">
+
+                <label for="localdatetime">Birthday(Date and time)</label>
+                <input type="datetime-local" id="localdatetime">
+
+                <label for="myfile">Select a File</label>
+                <input type="file" id="myfile">
+
+                <input type="hidden" id="custId" name="Id" value="1234">
+                <input type="number" id="quantity" name="quantity" min="1" max="5">
+                
+                <label for="volume">volume</label>
+                <input type="range" id="volume" name="volume" min="0" max="10">
+
+                <input type="reset">
+
+                <input type="search" id="gsearch" name="gsearch">
+                
+            </form>
         </article>
     </main>
     
